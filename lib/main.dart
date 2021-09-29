@@ -15,6 +15,7 @@ void main(List<String> args) {
     MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
+        canvasColor: kLightColor,
         primaryColor: kPrimaryColor,
         scaffoldBackgroundColor: kBackgroundColor,
         //AppBar
